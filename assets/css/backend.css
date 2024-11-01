@@ -1,0 +1,410 @@
+@charset "UTF-8";
+/* Begin Import */
+
+p.warning-google-api {
+    background: red;
+    color: #fff;
+    padding: 10px;
+}
+
+.swal2-container.swal2-backdrop-show,
+.swal2-container.swal2-noanimation {
+    z-index: 10010555 !important;
+}
+
+.pac-container {
+    z-index: 10010555777 !important;
+}
+
+#pac-input {
+    left: -1px !important;
+}
+
+.delievere-unit {
+    background-color: #e8eaeb !important;
+    display: inline-block !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    margin-left: -5px;
+    border-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #7e8993 !important;
+    color: #32373c !important;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 30px;
+}
+
+#add_more_price_per_km {
+    float: right !important;
+}
+
+.group_price_per_km_no_display {
+    display: none !important;
+}
+
+h3.group_header_title {
+    background: #fcfcfc;
+    padding: 1em 1.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+#box_google_map .header {
+    background: #eee;
+    width: 100%;
+    display: inline-block;
+}
+
+#apply_changes {
+    float: right;
+}
+
+fieldset.fieldset-group-min-max {
+    width: 40%;
+    float: left;
+}
+
+fieldset.fieldset.min:before {
+    content: "Min";
+    background-color: #e8eaeb !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    display: inline-block !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    margin-left: 0px;
+    border-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #7e8993 !important;
+    color: #32373c !important;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 28px;
+    margin-right: -2px;
+    text-align: center;
+}
+
+fieldset.fieldset.max:before {
+    content: "Max";
+    background-color: #e8eaeb !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    display: inline-block !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    margin-left: 0px;
+    border-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #7e8993 !important;
+    color: #32373c !important;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 28px;
+    margin-right: -2px;
+    text-align: center;
+}
+
+fieldset.fieldset.cm:after {
+    content: "cm";
+    background-color: #e8eaeb !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    display: inline-block !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    margin-left: -7px;
+    border-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #7e8993 !important;
+    color: #32373c !important;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 28px;
+    text-align: center;
+    /*border-left: 0px !important;*/
+
+}
+
+fieldset.fieldset.kg:after {
+    content: "kg";
+    background-color: #e8eaeb !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    display: inline-block !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    margin-left: -7px;
+    border-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #7e8993 !important;
+    color: #32373c !important;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 28px;
+    text-align: center;
+    /*border-left: 0px !important;*/
+}
+
+fieldset.fieldset.km:after {
+    content: "km";
+    background-color: #e8eaeb !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    display: inline-block !important;
+    width: 40px !important;
+    margin-left: -7px;
+    border-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #7e8993 !important;
+    color: #32373c !important;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 28px;
+    text-align: center;
+    /*border-left: 0px !important;*/
+}
+
+fieldset.fieldset.cbm:after {
+    content: "cbm";
+    background-color: #e8eaeb !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    display: inline-block !important;
+    width: 40px !important;
+    margin-left: -7px;
+    border-radius: 0 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #7e8993 !important;
+    color: #32373c !important;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 28px;
+    text-align: center;
+    /*border-left: 0px !important;*/
+}
+
+fieldset.fieldset>input {
+    margin-left: -4px;
+    border-radius: 0px !important;
+    width: 120px !important;
+    min-width: 120px !important;
+}
+
+table.list_price_per_km fieldset {
+    float: left;
+    width: 120px !important;
+    padding-left: 10px;
+}
+
+table.list_price_per_km td {
+    padding: 2px !important;
+}
+
+table.list_price_per_km fieldset legend {
+    height: auto !important;
+    position: relative !important;
+}
+
+table.list_price_per_km fieldset legend span {
+    -webkit-clip-path: none !important;
+    font-size: 11px;
+}
+
+table.list_price_per_km fieldset input {
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+#woocommerce_deliveree_shipping_method_service_setting_shipping_starting_price,
+#woocommerce_deliveree_shipping_method_service_setting_shipping_maximum_distance {
+    margin-left: 0px;
+}
+
+#table_start_price td.col {
+    padding: 0px;
+}
+
+#table_start_price td input {
+    min-width: 132px;
+    max-width: 147px;
+    margin-right: 10px;
+}
+
+#table_start_price .addMoreTiger {
+    float: right;
+    text-decoration: none;
+    box-shadow: none;
+    margin-right: 25px;
+}
+
+#table_start_price .addMoreTiger:hover {
+    cursor: pointer;
+}
+
+#table_start_price .delete-start-price {
+    background: #fff;
+    border: 0px;
+    text-decoration: none;
+    color: #444;
+}
+
+#table_start_price .delete-start-price:hover {
+    cursor: pointer;
+    color: #0073aa;
+}
+
+#btn-add-more-services {
+    float: left !important;
+}
+
+#data-gogle-api p.description {
+    margin-top: 5px;
+}
+
+article.wc-modal-shipping-method-settings p {
+    padding-top: 8px !important;
+    margin: 0px !important;
+    border: 1px solid #ccd0d4;
+    border-bottom: 0px;
+    padding: 8px;
+    background: #f8f8f8;
+}
+
+article.wc-modal-shipping-method-settings table.form-table {
+    border: 1px solid #ccd0d4;
+    margin: 0;
+}
+
+article.wc-modal-shipping-method-settings h3.wc-settings-sub-title {
+    background: #f8f8f8;
+    margin: 0;
+    padding: 1em 0;
+}
+
+article.woocommerce_deliveree_modal_setting_method input:disabled {
+    background-color: #e8eaeb !important;
+    border: solid 1px;
+}
+
+.errors-form {
+    margin-top: 5px;
+    color: red;
+}
+
+.swal2-title {
+    font-size: 20px !important;
+    margin-bottom: 15px !important;
+}
+
+#map {
+    margin-top: 10px;
+}
+
+.logo_shipping_methods {
+    position: relative;
+    margin-right: 6px;
+    border-radius: 50%;
+    padding: 1px;
+    background: #e5f8e5;
+    top: 5px;
+    width: 18px;
+}
+
+.wc-backbone-modal-main .wc-backbone-modal-header h1 {
+    text-transform: capitalize;
+}
+
+.woocommerce table.form-table .forminp-radio_booking_mode fieldset .woocommerce-help-tip {
+    margin: 0;
+}
+
+.pickup_hours {
+    width: 70px;
+    border: 1px solid #1e8cbe;
+    padding: 4px 10px 7px;
+    border-radius: 4px;
+}
+
+
+.pickup_hours:focus-visible {
+    outline: 0px;
+}
+
+#pickup_hours_start {
+    border-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    text-align: right;
+    position: relative;
+    right: -5px;
+}
+
+
+#pickup_hours_end {
+    position: relative;
+    left: -5px;
+    border-left: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+.pickup_hours_dot {
+    padding: 4px 0px 7px;
+    border: 1px solid #1e8cbe;
+    background: white;
+    border-right: 0;
+    border-left: 0;
+}
+
+.xdsoft_datetimepicker {
+    box-shadow: none;
+}
+
+.tr_radio_pickup_hours,
+.tr_input_toggle_deliveree_services_extra_services {
+    display: none;
+}
+
+.tr_radio_pickup_hours.active,
+.tr_input_toggle_deliveree_services_extra_services.active {
+    display: contents;
+}
+
+#adminmenu .wp-menu-image img {
+    width: 18px;
+    border-radius: 2px;
+}
+
+.wc-modal-shipping-method-settings form .form-table tr td input.input-width,
+.wc-modal-shipping-method-settings form .form-table tr td.forminp-deliveree-select_default_vehicle fieldset {
+    width: 80%;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true] {
+    background-color: #e4eddf;
+    color: #000000;
+    font-weight: 500;
+}

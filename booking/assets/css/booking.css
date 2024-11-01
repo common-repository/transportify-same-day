@@ -1,0 +1,477 @@
+.pac-container {
+    z-index: 10010555 !important;
+}
+
+/*dropdown list*/
+.btn-group {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    padding: 10px 13px 0px;
+    border-radius: 3px;
+    border: solid 1px #d4d4d4;
+}
+
+.dropdown-menu-right {
+    right: -1px;
+    left: auto;
+}
+
+.btn-group.show .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu-right:hover a.dropdown-item {
+    cursor: pointer;
+}
+
+/*List booking*/
+table.bookings_deliveree th {
+    font-weight: bold;
+}
+
+/*table.bookings_deliveree span.sorting-indicator {*/
+/*    visibility: visible !important;*/
+/*}*/
+
+/*Create booking*/
+#submitBooking {
+    background: green;
+    border-color: green;
+    float: right;
+}
+
+input.pickup_time_datepicker {
+    width: 160px !important;
+}
+
+table.bookings_deliveree thead #status {
+    width: 170px !important;
+}
+
+table.bookings_deliveree .selection-action {
+    width: 50px;
+    margin-left: 5px;
+}
+
+table td,
+.table th {
+    padding: 8px 10px;
+}
+
+#table_pickup,
+#table_destination,
+#table_note_dirver {
+    border: 1px solid #ccd0d4;
+    border-bottom: 0px;
+    margin-top: 0px;
+}
+
+#table_note_dirver {
+    border-bottom: 1px solid #ccd0d4;
+
+}
+
+#table_pickup thead th,
+#table_destination thead th,
+#table_note_dirver thead th {
+    margin: 0px;
+    padding: 8px 10px !important;
+    background: #ffff;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+#table_pickup tbody tr,
+#table_destination tbody tr,
+#table_note_dirver tbody tr {
+    background-color: #f9f9f9;
+}
+
+#table_pickup input,
+#table_destination input,
+#table_note_dirver input,
+#table_destination button {
+    border: 1px solid #ccd0d4;
+}
+
+
+
+
+
+.td-addrress {
+    width: 55% !important;
+}
+
+.td-locations,
+.td-pic-name,
+.td-pic-number {
+    width: 15% !important;
+}
+
+#table_destination tr td {
+    padding: 5px 10px !important;
+}
+
+#table_pickup input:focus,
+#table_destination input:focus,
+#table_note_dirver input:focus {
+    box-shadow: none !important;
+}
+
+.group-input {
+    width: 100%;
+    display: inline-block;
+    height: 30px;
+}
+
+.group-input label {
+    background-color: #007cba !important;
+    width: 20px !important;
+    min-width: 20px !important;
+    display: inline-block !important;
+    margin-left: 0px;
+    /*border: 1px solid #007cba !important;*/
+    color: #fff !important;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 28px;
+    margin-right: -2px;
+    text-align: center;
+    float: left;
+}
+
+.group-input input {
+    width: 80% !important;
+    border-radius: 0px;
+    float: left;
+}
+
+.group-input button {
+    height: 30px;
+    margin-left: 3px;
+}
+
+#table_destination .group-input label {
+    background: #e9ecef !important;
+    color: #000 !important;
+    ;
+    border-color: #ccd0d4;
+    border: 1px solid #ccd0d4;
+}
+
+#table_pickup label.error,
+#table_destination label.error {
+    display: none !important;
+}
+
+#table_pickup input.error,
+#table_destination input.error,
+#table_note_dirver input.error {
+    border: solid 1px red;
+}
+
+#bookingForm select.error {
+    border: solid 1px red;
+}
+
+.group-input input.error:focus {
+    border: solid 1px red !important;
+}
+
+#btn-add-more-field {
+    float: right;
+    margin-right: 70px;
+}
+
+span.status {
+    width: 100% !important;
+    float: left;
+    font-weight: bold;
+    color: #333333;
+}
+
+span.status.delivery_completed {
+    color: #333333;
+}
+
+span.status.canceled {
+    color: #D9001B;
+}
+
+span.status.locating {
+    color: #ff6e1b;
+}
+
+span.status.in_process {
+    color: #3FAE29;
+}
+
+span.status.confirmed {
+    color: #3FAE29;
+}
+
+span.status.timeout {
+    color: #D9001B;
+}
+
+span.status.pending {
+    color: #A3D998 !important;
+}
+
+span.status.en_router {
+    color: #D9001B;
+}
+
+span.status2 {
+    background: #fff;
+    color: #0c0c0c;
+    border: 1px solid #ccd0d4;
+    margin-left: 10px;
+    width: 10px !important;
+}
+
+
+
+
+/** Create booking page **/
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mr-1 {
+    margin-right: 5px;
+}
+
+.swal2-modal .swal2-content {
+    padding: 0;
+}
+
+.swal2-modal h2.swal2-title {
+    font-size: 1.5em !important;
+}
+
+.swal2-modal .swal2-actions .swal2-confirm {
+    font-size: 0.85em !important;
+}
+
+.pac-container {
+    z-index: 9999999;
+}
+
+.warping .widefat input[type=checkbox],
+.warping .widefat input[type=radio] {
+    width: 1rem;
+}
+
+.warping .widefat input {
+    width: 100%
+}
+
+.warping .widefat th {
+    font-weight: 600;
+}
+
+.warping .widefat td {
+    vertical-align: middle;
+}
+
+.warping .widefat.top td {
+    vertical-align: top;
+}
+
+.warping .widefat tbody tr {
+    background-color: #f9f9f9;
+}
+
+.warping .widefat.create tbody tr:first-child td {
+    padding-top: 20px;
+}
+
+.warping .widefat.create tbody tr:last-child td {
+    padding-bottom: 40px;
+}
+
+.warping .page-title-action {
+    top: 0 !important;
+    min-height: 28px;
+    padding: 0 10px;
+    line-height: 2;
+    display: inline-block;
+}
+
+.warping .input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-group-prepend {
+    margin-right: -2px;
+}
+
+.input-group-text {
+    padding: 5px;
+    margin-bottom: 0;
+    color: #495057;
+    min-width: 13px;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #7e8993;
+    border-radius: .25rem 0 0 .25rem;
+    text-align: center;
+}
+
+.input-group-text.primary {
+    background-color: #00669b;
+    border-color: #00669b;
+    color: #ffffff;
+}
+
+.warping .input-group>input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.button-contactcs {
+    padding: 0 30px !important;
+    font-weight: bold;
+}
+
+th.sortable a,
+th.sorted a {
+    color: #32373c;
+}
+
+.wrapper-input-register-customers {
+    display: inline-block;
+    position: relative;
+}
+
+.wrapper-input-register-customers .clear {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.wrapper-input-register-customers .clear-show {
+    display: inline-block;
+}
+
+.multiselect-wrapper {
+    margin-right: 5px;
+}
+
+.multiselect-input-div {
+    height: initial;
+}
+
+.multiselect-input-div input {
+    padding: 0;
+    vertical-align: inherit;
+    padding-left: 5px;
+}
+
+#btn-bookings-search {
+    vertical-align: inherit;
+}
+
+.multiselect-wrapper ul li.active {
+    background-color: transparent;
+    color: #333333;
+}
+
+.column-action {
+    text-align: center;
+}
+
+.column-action button {
+    width: 100%;
+}
+
+.column-action button.track-btn {
+    color: #ffffff;
+    background-color: #00669b
+}
+
+#filter_datetimepicker {
+    width: 220px;
+    text-align: center;
+}
+
+.daterangepicker .drp-calendar {
+    max-width: 375px;
+}
+
+.sorting-indicator {
+    visibility: visible;
+}
+
+.cancel-booking{
+    color: red;
+}
+
+
+@media (max-width: 767px) {
+    .input-group-text {
+        padding: 10px 5px;
+    }
+
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}

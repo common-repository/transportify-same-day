@@ -1,0 +1,147 @@
+.woocommerce table.form-table .forminp-radio ul {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.woocommerce table.form-table .forminp-radio ul li {
+  display: inline-block;
+}
+
+.woocommerce table.form-table .forminp-radio ul li:nth-child(2) {
+  margin-left: 100px;
+}
+
+.woocommerce table.form-table .forminp-textarea {
+  position: relative;
+}
+
+.deliveree-error-box {
+  border: 1px solid red !important;
+}
+
+.deliveree-error-msg {
+  color: red;
+}
+
+.deliveree-icon-maps {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 16px;
+  top: 35px;
+  cursor: pointer;
+}
+
+.deliveree-origin_address {
+  padding: 0 40px !important;
+  resize: none;
+}
+
+.wc-modal-shipping-method-settings form .form-table tr td input[type="radio"] {
+  height: 16px;
+  width: 16px;
+  min-width: 1px;
+}
+
+.wc-modal-shipping-method-settings
+  form
+  .form-table
+  tr
+  td
+  input[type="radio"]::before {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0.1875rem;
+}
+
+.wc-modal-shipping-method-settings form {
+  width: 100%;
+  background: #fff;
+  margin: 0 0 1.5em;
+}
+
+.select-wrapper {
+  display: inherit;
+  margin: 0;
+  position: relative;
+  left: 10px;
+  min-width: 70px;
+  width: 70px;
+}
+
+.woocommerce table.form-table .deliverree_premium_currency_select,
+.woocommerce table.form-table .deliverree_discount_currency_select,
+.wc-modal-shipping-method-settings
+  form
+  .form-table
+  tr
+  td
+  select.deliverree_premium_currency_select,
+.wc-modal-shipping-method-settings
+  form
+  .form-table
+  tr
+  td
+  select.deliverree_discount_currency_select {
+  min-width: 55px;
+  width: 100%;
+  max-height: 35px;
+}
+
+select.classic {
+  background-image: linear-gradient(45deg, transparent 50%, #888 50%),
+    linear-gradient(135deg, #888 50%, transparent 50%),
+    linear-gradient(to right, #e7eaeb, #e7eaeb);
+  background-position: calc(100% - 14px) calc(1em + -1px),
+    calc(100% - 10px) calc(1em + -1px), 100% 0;
+  background-size: 4px 4px, 4px 4px, 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.woocommerce table.form-table .deliverree_premium_currency_value,
+.woocommerce table.form-table .deliverree_discount_currency_value {
+  max-width: 150px;
+  min-width: 50px;
+}
+
+.wc-modal-shipping-method-settings
+  form
+  .form-table
+  tr
+  td
+  input.deliverree_premium_currency_value,
+.wc-modal-shipping-method-settings
+  form
+  .form-table
+  tr
+  td
+  input.deliverree_discount_currency_value {
+  position: relative;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  max-height: 35px;
+  height: 35px;
+}
+
+.deliverree_discount_currency_percent {
+  background: #e7eaeb;
+  margin: 0 15px 0 0 !important;
+  padding: 5px 20px;
+  border: 1px solid #a1a3a7;
+  height: 30px;
+  position: relative;
+  top: 1px;
+  right: 7px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: inline-block;
+}
+
+.max-cap {
+  font-weight: bold;
+}
+
+.red-border {
+  border-color: red !important;
+}
